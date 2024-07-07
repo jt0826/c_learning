@@ -8,6 +8,7 @@ int main(){
     printf("you have entered x = %d\n", x );
     printf("enter a number y:\n");
     scanf("%d", &y);
+    printf("you have entered y = %d\n", y );
     // and is &&
     if (x > 10 && y < 20){
         printf("x is more than 10 and y is less than 20\n");
