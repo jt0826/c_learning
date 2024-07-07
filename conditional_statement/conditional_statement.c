@@ -12,12 +12,14 @@ int main(){
     if (x > 10 && y < 20){
         printf("x is more than 10 and y is less than 20\n");
     }
+
     // or is ||
-    else if (x == 5 || y == 5){
+    if (x == 5 || y == 5){
         printf("either x is 5 or y is 5\n");
     }
+
     // not is !
-    else if (!(x < 3)){
+    if (!(x < 3)){
         printf("x is not less than 3\n");
     }
 
