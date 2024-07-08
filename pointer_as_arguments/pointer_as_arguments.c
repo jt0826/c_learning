@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //pointers start to be more useful when you pass them as arguments to a function.
-//the fucntion copies all the parameters it takes in.
+//the function copies all the parameters it takes in.
 //hence, when a pointer is passed as a parameter, it gets copied by the function as well.
 
 //we will use increment function as an example.
