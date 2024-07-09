@@ -32,4 +32,5 @@ int main(void){
             printf("%d ", id[row][col]);
         }
     }
+    //prints identity matrix :D
 }
