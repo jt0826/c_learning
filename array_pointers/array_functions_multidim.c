@@ -17,3 +17,7 @@ int main(void){
 
     print_2D_array(x);
 }
+
+/*takeaway: you can also use void print_2D_array([][3]). We need to know all the dimensions
+after the first one because the compiler needs to know how far ahead in memory to skip
+for each increment of the first dimension*/
