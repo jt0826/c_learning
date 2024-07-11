@@ -29,4 +29,10 @@ int main(void){
 }
 
 // therefore we can see that
-//void(int *a), void(int a[]), and void(int a[5]) are the same
+//void(int *a), void(int a[]), and void(int a[5]) are the same.
+
+//note that the first void(int *a) is the most commonly used.
+
+//take note that for the last case int a[5], this is a single dimensional array
+// hence the compiler does not care what number you pass in
+// however in multidimensional arrays you have to specify, or it will get confused.
